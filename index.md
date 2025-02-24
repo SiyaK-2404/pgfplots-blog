@@ -56,6 +56,12 @@ MiKTeX: https://miktex.org/
 
 ### 4. Enable PGFPlots in Your LaTeX Document
 
+- Add the following line in the preamble of your document
+  
+  ```latex
+  \usepackage{pgfplots}
+  \pgfplotsset(compact=newest)
+  ```
 
 ## KEY FEATURES-
 
@@ -112,7 +118,20 @@ Example 1: Simple 2D Plot
 \end{tikzpicture}
 \end{document}
 ```
-Explanation: This creates a simple parabola f(x) = x^2 with labeled axes.
+Explanation of the code:
+
+- ``` tikzpicture``` environment, which is used for creating graphics using TikZ.
+- ``` \begin(axis)```: begins axis environment for plotting.
+- ``` axis lines = middle ```: Places the x-axis and y-axis at the center (instead of the default bottom-left).
+- ``` xlabel = $x$``` : Labels the x-axis as xx.
+- ``` ylabel = {$f(x)$}```: Labels the y-axis as f(x)f(x).
+- ``` \addplot[...] {x^2}```; plots the function f(x)=x2f(x)=x2.
+- ``` samples=100``` : Uses 100 sample points for a smooth curve.
+- ``` domain=-2:2``` : Plots the function from x=−2x=−2 to x=2x=2.
+- ``` blue, thick``` : Colors the curve blue and makes it thicker for better visibility.
+- ``` \end(axis)``` and ``` \end(tikzpicture)``` closes environments.
+
+Output: This creates a simple parabola f(x) = x^2 with labeled axes.
 #
 Example 2: 3D Surface Plot
 ```latex
@@ -128,13 +147,35 @@ Example 2: 3D Surface Plot
         ylabel = $y$,
         zlabel = {$f(x,y)$}
     ]
-    \addplot3[surf, domain=-2:2, y domain=-2:2] {x^2 + y^2};
+    \addplot3[surf, domain=-2:2, y domain=-2:2] {x^2 + y^2}; 
     \end{axis}
 \end{tikzpicture}
 
 \end{document}
 ```
-Explanation: This generates a 3D surface plot for f(x,y)=x^2+y^2
+Explanation of the code:
+
+- ``` tikzpicture``` starts a drawing environment where we define and draw the plot.
+
+- ``` \begin{axis}``` initializes the 3D coordinate system.
+
+- ``` view={60}{30}``` sets the viewing angle
+  - The first value (60) is the rotation around the vertical axis.
+  - The second value (30) tilts the plot.
+  
+- ``` axis lines = middle``` places the axis lines in the middle of the graph.
+
+- ``` xlabel = $x$, ylabel = $y$, zlabel = {$f(x,y)$} ``` define the labels for the axes.
+
+- ``` \addplot3``` is used for 3D plotting.
+
+- ``` surf ```specifies that the function should be drawn as a surface plot.
+
+- ``` domain=-2:2, y domain=-2:2 ```defines the range of x and y from -2 to 2.
+
+- ``` {x^2 + y^2} ```is the function being plotted.
+
+Output: This generates a 3D surface plot for f(x,y)=x^2+y^2
 
 ## USE-CASE
 
@@ -182,7 +223,7 @@ While it takes some time to get familiar with the syntax, the level of control a
 
 ## REFERENCES
  
-- PGFPlots Manual: The comprehensive official documentation, available online and regularly updated.
+- PGFPlots Manual: The comprehensive official documentation is available online and regularly updated.
 - PGFPlots GitHub Repository: The source code and latest development updates can be found here.
 Overleaf PGFPlots Guide: An excellent resource for beginners, with interactive examples and explanations4.
 - LaTeX Sparkle Project: Offers tips and examples for using PGFPlots effectively.
@@ -191,7 +232,7 @@ Overleaf PGFPlots Guide: An excellent resource for beginners, with interactive e
 - "LaTeX Cookbook" by Stefan Kottwitz: A book that includes a chapter on creating graphs with PGFPlots.
 - CTAN PGFPlots Page: The official package repository with download links and basic information.
 
-These resources cover a wide range of topics from basic usage to advanced techniques, ensuring you can make the most of PGFPlots in your LaTeX documents.
+These resources cover a wide range of topics, from basic usage to advanced techniques, ensuring you can make the most of PGFPlots in your LaTeX documents.
 
 
 ## CITATIONS
