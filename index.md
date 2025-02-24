@@ -101,7 +101,7 @@ PGFPlots provides extensive customization capabilities:
 By combining these features, PGFPlots enables users to create publication quality plots that seamlessly blend with their LaTeX documents, offering both flexibility and precision in data visualization.
 
 ## Code Examples
-Example 1: Simple 2D Plot
+#### Example 1: Simple 2D Plot
 ```latex
 ​​\documentclass{article}
 \usepackage{pgfplots}
@@ -145,8 +145,9 @@ Explanation of the code:
 - ``` \end(axis)``` and ``` \end(tikzpicture)``` closes environments.
 
 Output: This creates a simple parabola f(x) = x^2 with labeled axes.
+
 #
-Example 2: 3D Surface Plot
+#### Example 2: 3D Surface Plot
 ```latex
 \documentclass{article}
 \usepackage{pgfplots}
