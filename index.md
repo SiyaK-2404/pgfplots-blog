@@ -17,14 +17,14 @@ Installation & Setup Guide for PGFPlots
 - Ensure that the distribution includes pgfplots or install it separately.
 Here are the official links to download TeX Live and MiKTeX:
 
-TeX Live: https://tug.org/texlive/
+TeX Live: ```https://tug.org/texlive/```
 
-MiKTeX: https://miktex.org/
+MiKTeX: ```https://miktex.org/```
 
 
 ### 2. Verify Installation
 - Open a LaTeX editor such as TeXworks, Overleaf, or VS Code with LaTeX extensions.
-- Run a simple document containing \usepackage{pgfplots} to check for errors.
+- Run a simple document containing ``` \usepackage{pgfplots} ``` to check for errors.
 
 
 ### 3. Install PGFPlots (if not pre-installed)
