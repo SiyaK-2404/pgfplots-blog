@@ -120,15 +120,28 @@ Example 1: Simple 2D Plot
 ```
 Explanation of the code:
 
+- Uses ```article``` class.
+  
+- Loads the ```pgfplots``` package.
+  
 - ``` tikzpicture``` environment, which is used for creating graphics using TikZ.
+  
 - ``` \begin(axis)```: begins axis environment for plotting.
+  
 - ``` axis lines = middle ```: Places the x-axis and y-axis at the center (instead of the default bottom-left).
-- ``` xlabel = $x$``` : Labels the x-axis as xx.
-- ``` ylabel = {$f(x)$}```: Labels the y-axis as f(x)f(x).
-- ``` \addplot[...] {x^2}```; plots the function f(x)=x2f(x)=x2.
+  
+- ``` xlabel = $x$``` : Labels the x-axis as x.
+  
+- ``` ylabel = {$f(x)$}```: Labels the y-axis as f(x).
+  
+- ``` \addplot[...] {x^2}```; plots the function f(x)=x^2.
+  
 - ``` samples=100``` : Uses 100 sample points for a smooth curve.
-- ``` domain=-2:2``` : Plots the function from x=−2x=−2 to x=2x=2.
+  
+- ``` domain=-2:2``` : Plots the function from x=−2 to x=2.
+  
 - ``` blue, thick``` : Colors the curve blue and makes it thicker for better visibility.
+  
 - ``` \end(axis)``` and ``` \end(tikzpicture)``` closes environments.
 
 Output: This creates a simple parabola f(x) = x^2 with labeled axes.
@@ -154,6 +167,10 @@ Example 2: 3D Surface Plot
 \end{document}
 ```
 Explanation of the code:
+
+- Uses ```article``` class.
+  
+- Loads the ```pgfplots``` package.
 
 - ``` tikzpicture``` starts a drawing environment where we define and draw the plot.
 
