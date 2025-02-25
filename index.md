@@ -235,6 +235,10 @@ Educators can use PGFPlots to:
 
 By integrating seamlessly with LaTeX, PGFPlots allows users to create high-quality, customizable plots that enhance the visual appeal and clarity of their documents across various academic and professional fields.
 
+## TUTORIAL TO LEARN BASICS OF PGFPLOTS
+```https://youtu.be/CcOPVFqndQo ```
+
+
 ## CONCLUSION
 
 PGFPlots is an incredibly useful tool for anyone working with LaTeX, especially when it comes to creating professional, well-formatted plots. Instead of relying on external software for graphs, it allows users to generate high-quality 2D and 3D visualizations directly within their documents. This not only ensures consistency but also makes the entire workflow smoother for researchers, engineers, and students.
