@@ -145,6 +145,7 @@ Explanation of the code:
 - ``` \end(axis)``` and ``` \end(tikzpicture)``` closes environments.
 
 Output: This creates a simple parabola f(x) = x^2 with labeled axes.
+<img src="2dplot.png" alt="2D PLOT">
 
 #
 #### Example 2: 3D Surface Plot
@@ -194,6 +195,8 @@ Explanation of the code:
 - ``` {x^2 + y^2} ```is the function being plotted.
 
 Output: This generates a 3D surface plot for f(x,y)=x^2+y^2
+
+<img src="3dplot.png" alt="3D PLOT">
 
 ## USE-CASE
 
