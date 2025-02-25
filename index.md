@@ -258,23 +258,15 @@ These resources cover a wide range of topics, from basic usage to advanced techn
 ## CITATIONS
 
 - https://tikz.dev/pgfplots/
-- https://www.wikitechy.com/tutorials/latex/plots-in-latex
-- https://github.com/LogCreative/PGFPlotsEdt
 - https://www.overleaf.com/learn/latex/Pgfplots_package
 - https://github.com/pgf-tikz/pgfplots
-- https://ctan.org/tex-archive/graphics/pgf/contrib/pgfplots?lang=en
 - https://pgfplots.sourceforge.net/gallery.html
 - https://latex-tutorial.com/tutorials/pgfplots/
 - https://pgfplots.net
-- https://github.com/gorakhargosh/graphbook/blob/master/style/latex/pgfplots/pgfplots.sty
-- https://ctan.org/pkg/pgfplots?lang=en
-- https://www.reddit.com/r/LaTeX/comments/kr9hst/tutorial_plot_functions_and_data_in_latex_using/
 - https://www.overleaf.com/latex/examples/the-simple-pgfplot-example/yygbmyhnkqdx
 - https://jackypacky.github.io/pgf-econ-graphs/guide.pdf
 - https://pgfplots.sourceforge.net/pgfplots.pdf
 - https://www.youtube.com/watch?v=bc3OeEsijN8
-- https://tikz.dev/pgfplots/reference-2dplots
-- https://github.com/jviquerat/latex
 - https://tex.stackexchange.com/questions/511078/pgfplot-tikz-plot-creation
 - https://www.youtube.com/watch?v=NQj87uFm-_s
 
